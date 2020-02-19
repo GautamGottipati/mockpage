@@ -21,18 +21,37 @@ header div{
 
 .col3{
     width: 100%;
+    text-align: center;
 }
 
 .col9{
     width: 100%;
+    
+}
+.col4{
+    width: 100%;
+    text-align: center;
+    
+}
+.col8{
+    width: 100%;
+    
+}
+
+img{
+    width: 50%;
+    height :auto;
+    margin:auto;
 }
 
 .scat{
     font-size: 20px;
     font-weight: bold;
     padding: inherit;
-    text-align: center;
+    
 }
+
+
 
 .flex{
     display: flex;
@@ -51,14 +70,9 @@ header div{
     order: 2;
 }
 
-.flex > #image{
-    order: 7;
+footer span{
+    position: absolute;
+    left: 44%;
+    top: 41%;
 }
 
-.flex > #heading{
-    order: 4;
-}
-
-.flex > #matter{
-    order: 5;
-}
