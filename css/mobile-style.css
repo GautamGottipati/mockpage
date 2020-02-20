@@ -51,7 +51,9 @@ img{
     
 }
 
-
+#subscribe{
+    width: 50%;
+}
 
 .flex{
     display: flex;
